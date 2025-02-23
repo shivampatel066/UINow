@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8F3E18DA2D6A128D00517FC3 /* UINow in Frameworks */ = {isa = PBXBuildFile; productRef = 8F3E18D92D6A128D00517FC3 /* UINow */; };
+		8F626EE72D6AEB2D009D7076 /* UINow in Frameworks */ = {isa = PBXBuildFile; productRef = 8F626EE62D6AEB2D009D7076 /* UINow */; };
+		8F626EEA2D6AEB74009D7076 /* UINow in Frameworks */ = {isa = PBXBuildFile; productRef = 8F626EE92D6AEB74009D7076 /* UINow */; };
+		8F927EFD2D6AEC3C0062BA4B /* UINow in Frameworks */ = {isa = PBXBuildFile; productRef = 8F927EFC2D6AEC3C0062BA4B /* UINow */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F626EEA2D6AEB74009D7076 /* UINow in Frameworks */,
 				8F3E18DA2D6A128D00517FC3 /* UINow in Frameworks */,
+				8F626EE72D6AEB2D009D7076 /* UINow in Frameworks */,
+				8F927EFD2D6AEC3C0062BA4B /* UINow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +124,9 @@
 			name = UINowDemo;
 			packageProductDependencies = (
 				8F3E18D92D6A128D00517FC3 /* UINow */,
+				8F626EE62D6AEB2D009D7076 /* UINow */,
+				8F626EE92D6AEB74009D7076 /* UINow */,
+				8F927EFC2D6AEC3C0062BA4B /* UINow */,
 			);
 			productName = UINowDemo;
 			productReference = 8F3E18AB2D6A126100517FC3 /* UINowDemo.app */;
@@ -202,7 +211,7 @@
 			mainGroup = 8F3E18A22D6A126100517FC3;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				8F3E18D82D6A128C00517FC3 /* XCLocalSwiftPackageReference "../../UINow" */,
+				8F927EFB2D6AEC3C0062BA4B /* XCLocalSwiftPackageReference "../../UINow" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8F3E18AC2D6A126100517FC3 /* Products */;
@@ -569,7 +578,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		8F3E18D82D6A128C00517FC3 /* XCLocalSwiftPackageReference "../../UINow" */ = {
+		8F927EFB2D6AEC3C0062BA4B /* XCLocalSwiftPackageReference "../../UINow" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../UINow;
 		};
@@ -577,6 +586,18 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		8F3E18D92D6A128D00517FC3 /* UINow */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UINow;
+		};
+		8F626EE62D6AEB2D009D7076 /* UINow */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UINow;
+		};
+		8F626EE92D6AEB74009D7076 /* UINow */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UINow;
+		};
+		8F927EFC2D6AEC3C0062BA4B /* UINow */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UINow;
 		};
